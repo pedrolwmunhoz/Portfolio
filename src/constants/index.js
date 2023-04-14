@@ -1,4 +1,6 @@
 import {
+   foursys,
+    radix,
     mobile,
     backend,
     creator,
@@ -46,17 +48,13 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
       title: "Backend Developer",
       icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    }
   ];
   
   const technologies = [
@@ -116,57 +114,55 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Full Stack Developer",
+      company_name: "Radix Engenharia",
+      icon: radix,
+      iconBg: "#8F65F2",
+      date: "Jun 2022 - Out 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Development of responsive interfaces web with high performance, usability and reliability.",
+        "Backend development using Java: Creating robust RESTfull APIs using Spring Boot, managing business logic, user authentication and authorization, and integration with the MongoDB database.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers."
+      ],
+    },
+    {
+      title: "Beck-end developer PL",
+      company_name: "Foursys",
+      icon: foursys,
+      iconBg: "#212037",
+      date: "Fev 2022 - Mai 2022",
+      points: [
+        "Full developer in Java/Cobol integration systems in Bradesco-FIS client architecture.",
+        "Act in the code support area, correcting errors (abends) and code improvement.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Beck-end developer Jr",
+      company_name: "Foursys",
+      icon: foursys,
+      iconBg: "#212037",
+      date: "Jan 2021 - Fev 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Jr developer in Java/Cobol integration systems in Bradesco-FIS client architecture.",
+        "Act in the code support area, correcting errors (abends) and code improvement.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Trainee Developer",
+      company_name: "Foursys",
+      icon: foursys,
+      iconBg: "#212037",
+      date: "Nov 2020 - Jan 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "COBOL training program given for a period of 3 months, developing knowledge such as function analysis, specification creation and program construction using COBOL, Batch/Online and SQL/Stored Procedures.",
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+
   ];
   
   const testimonials = [
